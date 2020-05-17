@@ -1,0 +1,122 @@
+.footer {
+    background-color: #333333;
+    padding-top: 60px;
+    position: relative;
+}
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #484848;
+    padding-bottom: 60px;
+}
+
+.footer__icon {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer__icon__link {
+    color: #969696;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-links-container__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer__logo {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer__desc {
+    color: #969696;
+    font-size: 12px;
+    width: 300px;
+}
+
+.footer__social-list {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer__social-list__item {
+}
+
+.footer__social-list__item__link {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #444444;
+    padding: 10px;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.footer__social-list__item__link i {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.footer__list__header {
+    text-transform: capitalize;
+    color: #9a9a9a;
+    margin-top: 0;
+}
+
+.footer-links-container__list {
+    padding-left: 0;
+    list-style-type: none;
+    line-height: 1.9;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer-links-container__list__item__link {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.footer__copyright {
+    color: #9a9a9a;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer__copyright__style {
+    color: #ffffff;
+}
+
+.footer__bottom-link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    color: #abb5be;
+    display: inline-block;
+    background-color: #e8ecef;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+
+.footer-bottom {
+    padding-top: 15px;
+}
+
+.footer__bottom-link i {
+    font-size: 18px;
+}
