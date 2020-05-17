@@ -120,3 +120,37 @@
 .footer__bottom-link i {
     font-size: 18px;
 }
+
+@media(max-width: 500px) {
+    .header-top {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .header__icon {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .header__form-search {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        margin-right: auto;
+    }
+
+    .nav-bar__list {
+        flex-direction: column;
+    }
+
+    .nav-bar__list__item:not(:last-child) {
+        margin-bottom: 14px;
+    }
+    .hero {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero__title {
+        text-align: center;
+    }
+}
