@@ -38,8 +38,14 @@
 
 .hero__form-search i {
     color: #ffffff;
-    padding: 18px 20px;
+    padding: 20px 20px;
     background-color: #FF4964;
+}
+
+.hero__form-search button {
+    border: none;
+    padding: 0;
+    height: 100%;
 }
 
 .hero__form-search__label {
@@ -50,9 +56,7 @@
     color: #ffffff;
     text-transform: capitalize;
     font-size: 44px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     text-shadow: 1px 1px 1px #00000038;
     margin-top: 0;
     margin-bottom: 20px;

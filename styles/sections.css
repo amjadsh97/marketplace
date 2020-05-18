@@ -84,8 +84,7 @@
 }
 
 .link-wrapper {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .latest__link {
