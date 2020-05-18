@@ -449,8 +449,10 @@ input[type=email] {
     border-radius: 4px;
     padding: 12px;
     font-size: 16px;
-    width: 450px;
+    display: block;
 }
+
+
 
 .communicate__card-subscribe__desc {
     color: #333333;
@@ -463,6 +465,11 @@ input[type=email] {
     background-color: #5BB97E;
     color: #ffffff;
     border-radius: 3px;
+    display: block;
     padding: 10px 16px;
     text-transform: capitalize;
+}
+
+.input-wrapper {
+    display: flex;
 }
