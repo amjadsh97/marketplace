@@ -50,8 +50,8 @@
 .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
     margin-bottom: 60px;
     margin-top: 40px;
 }
@@ -71,9 +71,9 @@
 .card__title {
     color: #333333;
     text-transform: capitalize;
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .card__category {
@@ -107,8 +107,8 @@
 .card-browse__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 30px;
+    grid-column-gap: 35px;
+    grid-row-gap: 50px;
     margin-bottom: 60px;
 
 }
@@ -134,6 +134,8 @@
     text-align: center;
     color: #ffffff;
     text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .card-browse__category {
@@ -286,9 +288,11 @@
 .card-testimonials__image {
     width: 128px;
     height: 128px;
-    display: inline-block;
-    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
+
 }
 
 .card-testimonials__desc {
@@ -336,7 +340,6 @@
 }
 
 
-
 .latest-news__card {
     background-color: #ffffff;
     padding: 30px;
@@ -351,8 +354,11 @@
 }
 
 .latest-news__card__title {
-    text-transform: capitalize;
     color: #333333;
+}
+
+.latest-news__card__title::first-letter {
+    text-transform: capitalize;
 }
 
 .latest-news__card__details {
@@ -388,6 +394,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .communicate__card-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -453,7 +460,6 @@ input[type=email] {
 }
 
 
-
 .communicate__card-subscribe__desc {
     color: #333333;
     margin-bottom: 50px;
@@ -472,4 +478,8 @@ input[type=email] {
 
 .input-wrapper {
     display: flex;
+}
+
+.communicate__card-subscribe__link-wrapper {
+    margin-left: 10px;
 }
